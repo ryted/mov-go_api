@@ -2,7 +2,7 @@ package main
 
 import (
 	// Custom
-	MovieRoutes "github.com/ryted/mov-go_api/src/Router"
+	Webs "github.com/ryted/mov-go_api/src/Router"
 
 	// Built-In
 	"fmt"
@@ -18,7 +18,7 @@ func main() {
 	r := mux.NewRouter()
 
 	// Movie Routes
-	for _, route := range MovieRoutes.MovieRoutes {
+	for _, route := range Webs.Webs {
 		r.HandleFunc(route.Path, route.Handler).Methods(route.Methods...)
 	}
 

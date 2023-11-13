@@ -1,4 +1,4 @@
-package MovieRoutes
+package Webs
 
 import (
 	// Custom
