@@ -14,6 +14,13 @@ var (
 				Firstname: "Jonathan",
 				Lastname:  "Alexander",
 			},
+			ID:    "2",
+			Isbn:  "28472",
+			Title: "The Last Ronin",
+			Director: MovieType.Director{
+				Firstname: "Jonathan",
+				Lastname:  "li",
+			},
 		},
 	}
 )
